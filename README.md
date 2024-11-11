@@ -1,3 +1,2 @@
-# shauryas-world
+# Shaurya's World - My Personal Website
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/ssbdragonfly/shauryas-world)

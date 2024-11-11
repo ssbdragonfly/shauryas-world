@@ -5,6 +5,13 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true },
-};
+  webpack: (config) => {
+    config.watchOptions = {
+      poll: 1000,
+      aggregateTimeout: 16777216,
+    }
+    return config
+  },
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
